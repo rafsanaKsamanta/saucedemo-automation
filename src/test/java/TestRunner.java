@@ -21,6 +21,7 @@ public class TestRunner extends Setup{
         loginPage.doLogin("standard_user","secret_sauce");
     }
 
+    //item select from the list of products
 
     @Test(priority = 2 , testName = "Select item")
     public void selectItem() throws InterruptedException{
@@ -30,7 +31,7 @@ public class TestRunner extends Setup{
         selectItem1.get(0).click();
 
     }
-
+    //add item to cart
     @Test(priority = 3 , testName = "Item add to cart button")
     public void addToCart() throws InterruptedException{
 
