@@ -10,7 +10,7 @@ public class TestRunner extends Setup{
 
     String baseUrl = "https://www.saucedemo.com/";
 
-    //login using credentaials
+    //login using credentials
 
     @Test(priority = 1,testName = "TC001", description = "User can login successfully")
 
