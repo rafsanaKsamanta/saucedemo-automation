@@ -62,7 +62,7 @@ public class TestRunner extends Setup{
         checkout.get(0).click();
 
     }
-    @Test(priority = 5 , testName = "Form fillup")
+    @Test(priority = 6 , testName = "Form fillup")
     public void formFill() throws InterruptedException{
 
         Thread.sleep(2000);
@@ -76,7 +76,7 @@ public class TestRunner extends Setup{
         continueBtn.get(0).click();
     }
 
-    @Test(priority = 6 , testName = "Back to landing")
+    @Test(priority = 7 , testName = "Back to landing")
     public void finish() throws InterruptedException{
 
         Thread.sleep(2000);
