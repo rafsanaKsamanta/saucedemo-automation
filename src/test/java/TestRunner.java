@@ -42,7 +42,7 @@ public class TestRunner extends Setup{
 
     }
 
-
+    // go to cart
     @Test(priority = 4 , testName = "Select Cart icon")
     public void cartIcon() throws InterruptedException{
 
