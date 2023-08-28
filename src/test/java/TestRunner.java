@@ -31,7 +31,7 @@ public class TestRunner extends Setup{
 
     }
 
-    @Test(priority = 3 , testName = "Item add to card button")
+    @Test(priority = 3 , testName = "Item add to cart button")
     public void addToCart() throws InterruptedException{
 
         Thread.sleep(2000);
