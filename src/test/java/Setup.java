@@ -16,9 +16,9 @@ public class Setup {
     @BeforeTest
     public void setup(){
 
-        System.setProperty("webdriver.chrome.driver","C:\\Automation Project\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Chrome Driver\\chromedriver-win64\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.setBinary("C:\\Users\\hp\\Downloads\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
+        options.setBinary("C:\\Chrome Driver\\chrome-win64\\chrome-win64\\chrome.exe");
         //WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver(options);
         driver.manage().window().maximize();
